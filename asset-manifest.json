@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/inquire-test/static/css/main.01d49282.chunk.css",
-    "main.js": "/inquire-test/static/js/main.6a4fcdc0.chunk.js",
-    "main.js.map": "/inquire-test/static/js/main.6a4fcdc0.chunk.js.map",
+    "main.js": "/inquire-test/static/js/main.017560ab.chunk.js",
+    "main.js.map": "/inquire-test/static/js/main.017560ab.chunk.js.map",
     "runtime-main.js": "/inquire-test/static/js/runtime-main.11def549.js",
     "runtime-main.js.map": "/inquire-test/static/js/runtime-main.11def549.js.map",
-    "static/js/2.eb6106e0.chunk.js": "/inquire-test/static/js/2.eb6106e0.chunk.js",
-    "static/js/2.eb6106e0.chunk.js.map": "/inquire-test/static/js/2.eb6106e0.chunk.js.map",
+    "static/js/2.f6052910.chunk.js": "/inquire-test/static/js/2.f6052910.chunk.js",
+    "static/js/2.f6052910.chunk.js.map": "/inquire-test/static/js/2.f6052910.chunk.js.map",
     "index.html": "/inquire-test/index.html",
     "static/css/main.01d49282.chunk.css.map": "/inquire-test/static/css/main.01d49282.chunk.css.map",
-    "static/js/2.eb6106e0.chunk.js.LICENSE.txt": "/inquire-test/static/js/2.eb6106e0.chunk.js.LICENSE.txt"
+    "static/js/2.f6052910.chunk.js.LICENSE.txt": "/inquire-test/static/js/2.f6052910.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.11def549.js",
-    "static/js/2.eb6106e0.chunk.js",
+    "static/js/2.f6052910.chunk.js",
     "static/css/main.01d49282.chunk.css",
-    "static/js/main.6a4fcdc0.chunk.js"
+    "static/js/main.017560ab.chunk.js"
   ]
 }
