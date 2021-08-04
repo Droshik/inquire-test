@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PostListItem from '../components/PostListItem/PostListItem';
 import { fetchListOfPostsAction } from '../store/actions/postsActions';
+import { CreateNewPost } from '../components/CreateNewPost/CreateNewPost';
 
 const ListOfPosts = () => {
   const { listOfPosts, error, isLoading } = useSelector((state) => state.posts);
@@ -20,10 +21,13 @@ const ListOfPosts = () => {
   }
 
   return (
-    listOfPosts.length
-    && listOfPosts.map((postContent) => (
-      <PostListItem key={postContent.id} postContent={postContent} />
-    ))
+    <>
+      <CreateNewPost />
+
+      {listOfPosts.length && listOfPosts.map((postContent) => (
+        <PostListItem key={postContent.id} postContent={postContent} />
+      ))}
+    </>
   );
 };
 
