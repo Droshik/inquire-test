@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import ListOfPosts from './pages/ListOfPosts';
 import PostDetails from './pages/PostDetails/PostDetails';
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="appWrapper">
         <Switch>
           <Route exact path="/">
@@ -17,7 +17,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
